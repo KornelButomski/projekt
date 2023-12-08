@@ -99,7 +99,7 @@
             vertical-align: middle;
         }
 
-        .guzik1 {
+        .guzik {
             width: 80%;
             height: 50px;
             background: #FFFFFF;
@@ -110,11 +110,11 @@
             transition-duration: 0.4s;
         }
 
-        .guzik1:hover {
+        .guzik:hover {
             background-color: #e8e8e8;
         }
 
-        #napisguzik1 {
+        #napisguzik {
             font-style: normal;
             font-weight: 400;
             font-size: 26px;
@@ -129,7 +129,7 @@
                 text-align: center;
             }
 
-            .guzik1 {
+            .guzik {
                 width: 80%;
                 margin: 10px auto;
                 float: left;
@@ -183,8 +183,22 @@
         }
 
         #logowanie {
-        position: absolute;
-        left: 1700px;
+            position: absolute;
+            left: 1700px;
+        }
+
+        #szukaj {
+            position: absolute;
+            width: 584px;
+            height: 45px;
+            left: 320px;
+            top: 10px;
+        }
+
+        #szukajguzik {
+            position: absolute;
+            left: 430px;
+            top: 15px;
         }
     </style>
 </head>
@@ -192,7 +206,13 @@
 <body>
 
     <div id="pasek1">
-        <H1 id="logo"><img src="widly2 1.png">idełki<b id="pro">PRO</b></H1>
+        <H1 id="logo"><img src="Widly2 1.png">idełki<b id="pro">PRO</b></H1>
+
+        <div id="szukaj">
+            <input type="text" name="search" class="guzik" id="napisguzik"><br><br>
+            <img src="Search.png" id="szukajguzik">
+        </div>
+
         <div id="logowanie">
             <img src="Shopping Basket.png" id="smedia"><div id="kreska"></div>
             <a href="logowanie.html"><img src="Account.png" id="smedia"></a><div id="kreska"></div>
@@ -205,22 +225,22 @@
             <tr>
                 <td class="tede">
                     <form action="nowosci.html" target="myFrame">
-                        <button class="guzik1"><p id="napisguzik1">NOWOŚCI</p></button>
+                        <button class="guzik"><p id="napisguzik">NOWOŚCI</p></button>
                     </form>
                 </td>
                 <td class="tede">
                     <form action="promocje.html" target="myFrame">
-                        <button class="guzik1"><p id="napisguzik1">PROMOCJE</p></button>
+                        <button class="guzik"><p id="napisguzik">PROMOCJE</p></button>
                     </form>
                 </td>
                 <td class="tede">
                     <form action="wyprzedaze.html" target="myFrame">
-                        <button class="guzik1"><p id="napisguzik1">WYPRZEDAŻE</p></button>
+                        <button class="guzik"><p id="napisguzik">WYPRZEDAŻE</p></button>
                     </form>
                 </td>
                 <td class="tede">
                     <form action="zestawy.html" target="myFrame">
-                        <button class="guzik1"><p id="napisguzik1">ZESTAWY</p></button>
+                        <button class="guzik"><p id="napisguzik">ZESTAWY</p></button>
                     </form>
                 </td>
             </tr>
